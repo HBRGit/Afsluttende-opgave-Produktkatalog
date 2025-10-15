@@ -24,7 +24,7 @@ public class Product
     // Add method ToString
     public override string ToString()
     {
-        return $"Product: {Name}, Price: {Price:C}";
+        return $"Product: {Name}, Price: {Price:C}";  //  :C tells the C# runtime to format the numeric value (Price, which is a decimal) as a currency amount. Like 1.234,56 kr. in Danish
     }
 
 }
